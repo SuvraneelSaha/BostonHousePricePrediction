@@ -32,8 +32,9 @@ venv -- Environment Name
 -y -- for explicitly Confirming Yes to the installation
 ```
 
-## Very Important is to install anaconda first and then set the path variables according to the installation
+## Very Important is to install anaconda first and then set the path variables according to the installation dont mess with the Path Variables on your own .
 
 ## otherwise when creating an environment and when activation it will create errors
 
-#ads
+# Better would be to just uninstall the anaconda and start afresh of the new installation of anaconda
+
