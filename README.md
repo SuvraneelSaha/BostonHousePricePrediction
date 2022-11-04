@@ -35,3 +35,5 @@ venv -- Environment Name
 ## Very Important is to install anaconda first and then set the path variables according to the installation
 
 ## otherwise when creating an environment and when activation it will create errors
+
+#ads
