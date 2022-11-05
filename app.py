@@ -33,9 +33,10 @@ def predict_api():
 def predict():
     data=[float(x) for x in request.form.values()]
     final_input=scalar.transform(np.array(data).reshape(1,-1))
+    # transformation or standardization is necessary for prediction purpose 
     print(final_input)
     output=regmodel.predict(final_input)[0]
-    return render_template("home.html",prediction_text="The House price prediction is {}".format(output))
+    return render_template("home.html",prediction_text="The Predicted House Price is {}".format(output))
 
 
 
